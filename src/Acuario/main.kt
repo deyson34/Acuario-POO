@@ -1,6 +1,7 @@
 package Acuario
 
 fun construirAcuario() {
+    /*
     val acuario1 = Acuario()
     acuario1.imprimirTamano()
     // altura y largo por defecto
@@ -21,6 +22,16 @@ fun construirAcuario() {
     acuario7.imprimirTamano()
     acuario7.volumen = 70
     acuario7.imprimirTamano()
+    */
+    val acuario8 = Acuario(largo = 25, ancho = 25, alto = 40)
+    acuario8.imprimirTamano()
+
+    val miAcuario = Acuario(ancho = 25, largo = 25, alto = 40)
+    miAcuario.imprimirTamano()
+
+    val miTorre = TanqueTorre(diametro = 25, alto = 40)
+    miTorre.imprimirTamano()
+
 }
 
 fun main() {
